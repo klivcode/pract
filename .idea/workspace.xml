@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="109d4315-dab6-4433-b6ec-3493c9c2162c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/SolutionLargestInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolutionLargestInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticeSolutionLargest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionLargestInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SolutionLargestInteger" />
       <module name="leetcode" />
@@ -59,6 +68,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.SolutionLargestInteger" />
       </list>
     </recent_temporary>
@@ -80,7 +90,7 @@
       <updated>1756493848559</updated>
       <workItem from="1756493852143" duration="377000" />
       <workItem from="1763301203799" duration="2294000" />
-      <workItem from="1763392300853" duration="1756000" />
+      <workItem from="1763392300853" duration="2813000" />
     </task>
     <servers />
   </component>
