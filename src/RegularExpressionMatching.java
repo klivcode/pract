@@ -69,7 +69,7 @@ public class RegularExpressionMatching {
 
     public static void main(String[] args) {
         RegularExpressionMatching s = new RegularExpressionMatching();
-        System.out.println(s.isMatch("aab", ".*a"));
+        System.out.println(s.isMatch("", " "));
     }
 
 }

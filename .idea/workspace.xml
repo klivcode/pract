@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="109d4315-dab6-4433-b6ec-3493c9c2162c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/RegularExpressionMatching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegularExpressionMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegularExpressionMatching.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +98,7 @@
       <workItem from="1756493852143" duration="377000" />
       <workItem from="1763301203799" duration="2294000" />
       <workItem from="1763392300853" duration="3755000" />
-      <workItem from="1763459109797" duration="1594000" />
+      <workItem from="1763459109797" duration="1898000" />
     </task>
     <servers />
   </component>
