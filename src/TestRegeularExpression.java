@@ -12,7 +12,7 @@ public class TestRegeularExpression {
         if(p.length()>=2 && p.charAt(1) == '*')
         {
            return (
-                   isMatch(s,p.substring(1))
+                   isMatch(s,p.substring(2))
                    ||
                            (firstMatch && isMatch(s.substring(1),p)
                                    )
