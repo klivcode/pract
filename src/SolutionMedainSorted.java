@@ -66,7 +66,7 @@ public class SolutionMedainSorted {
         }
 
         // However in the odd lenght the + 1 makes the even and exactly divided by the 2 so the no decimal value is get
-        // the respective is outcome form the sorted array .
+        // the respective is outcome from the sorted array .
 
         // for the odd length and +1
 
