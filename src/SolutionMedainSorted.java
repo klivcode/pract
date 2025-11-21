@@ -52,11 +52,25 @@ public class SolutionMedainSorted {
         System.arraycopy(nums2,0,merged,nums1.length,nums2.length);
         Arrays.sort(merged);
         int sum = 0;
-        double median ;
-        for(int i=0;i<merged.length;i++){
-            sum+=merged[i];
+        int n= merged.length;
+        double median =0.0D;
+        if(merged.length%2==0)
+        {
+           int nthTerm= merged[n/2-1];
+           int nthPlus1Term=merged[n/2];
+
+           // Even number of length  the formula for the median is = (n+1)th item/2 gives the decimal value so we need
+            // to add the nth term + nth+1 term diveded by 2 then the respective value is the medain
+
+            median= (double) (nthTerm + nthPlus1Term) /2;
         }
-        median=sum/merged.length;
+
+        // However in the odd lenght the + 1 makes the even and exactly divided by the 2 so the no decimal value is get
+        // the respective is outcome form the sorted array .
+
+
+
+
         return median;
     }
 
