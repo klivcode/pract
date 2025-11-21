@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="109d4315-dab6-4433-b6ec-3493c9c2162c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SolutionMedainSorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SolutionMedainSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolutionMedainSorted.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RegularExpressionMatching">
+  <component name="RunManager" selected="Application.SolutionMedainSorted">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="leetcode" />
@@ -73,8 +72,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionMedainSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SolutionMedainSorted" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SolutionMedainSorted" />
         <item itemvalue="Application.RegularExpressionMatching" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SolutionLargestInteger" />
@@ -84,8 +91,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28238.7" />
       </set>
     </attachedChunks>
   </component>
@@ -100,7 +107,8 @@
       <workItem from="1763301203799" duration="2294000" />
       <workItem from="1763392300853" duration="3755000" />
       <workItem from="1763459109797" duration="3398000" />
-      <workItem from="1763567288732" duration="385000" />
+      <workItem from="1763567288732" duration="732000" />
+      <workItem from="1763705472250" duration="958000" />
     </task>
     <servers />
   </component>
