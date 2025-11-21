@@ -70,12 +70,20 @@ public class SolutionMedainSorted {
 
         // for the odd length and +1
 
-        int exactIndex= (n+1)/2;
-        median= merged[exactIndex];
-
+        else {
+            int exactIndex= n/2;
+            median= merged[exactIndex];
+        }
         return median;
     }
 
+
+    public static void main(String[] args) {
+        SolutionMedainSorted sol = new SolutionMedainSorted();
+        int[] nums1 = {1,2,3,4};
+        int[] nums2 = {9,6,7,8,10};
+        System.out.println(sol.findMedianSortedArrays(nums1,nums2));
+    }
 
 
 }
