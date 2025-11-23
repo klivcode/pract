@@ -53,11 +53,47 @@
  */
 
 
+import java.util.PriorityQueue;
+
 public class MergeKlists {
 
-    public <ListNode> ListNode mergeKLists(ListNode[] lists) {
+    // ListNode definition
+    public static class ListNode {
+        int val;
+        ListNode next;
+        ListNode() {}
+        ListNode(int val) { this.val = val; }
+        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+    }
 
-        return null;
+
+
+    public ListNode mergeKLists(ListNode[] lists) {
+
+        PriorityQueue<ListNode> pq = new PriorityQueue<>(
+                (a, b) -> a.val - b.val
+        );
+
+        // Insert first nodes of each list
+        for (ListNode node : lists) {
+            if (node != null) pq.add(node);
+        }
+
+        ListNode dummy = new ListNode(0);
+        ListNode tail = dummy;
+
+        // Build merged list
+        while (!pq.isEmpty()) {
+            ListNode smallest = pq.poll();
+            tail.next = smallest;
+            tail = tail.next;
+
+            if (smallest.next != null) {
+                pq.add(smallest.next);
+            }
+        }
+
+        return dummy.next;
     }
 }
 
