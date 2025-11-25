@@ -95,6 +95,12 @@ public class MergeKlists {
 
         return dummy.next;
     }
+
+    public static void main(String[] args) {
+        MergeKlists mk = new MergeKlists();
+        ListNode head = mk.mergeKLists(new ListNode[1]);
+        System.out.println(head);
+    }
 }
 
 
