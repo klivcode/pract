@@ -90,7 +90,7 @@ public class ReverseKGroup {
     }
 
     // MAIN METHOD to test
-    public static void main(String[] args) {
+    public static <String> void main(String[] args) {
         ReverseKGroup obj = new ReverseKGroup();
 
         // Creating sample linked list: 1 -> 2 -> 3 -> 4 -> 5
