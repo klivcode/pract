@@ -53,23 +53,74 @@ Constraints:
 
 
  */
-
-
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class ConcatenateStrings {
-    public List<Integer> findSubString(String s, String[] words)
-    {
+
+    public List<Integer> findSubstring(String s, String[] words) {
         List<Integer> result = new ArrayList<>();
-        if(s==null || s.length()==0 || words==null || words.length==0)
+        if (s == null || s.length() == 0 || words == null || words.length == 0)
             return result;
 
-        int wordlen = words[0].length();
-        int wordcount = words.length;
-        int totallen = wordlen*wordcount;
+        int wordLen = words[0].length();
+        int wordCount = words.length;
+        int totalLen = wordLen * wordCount;
 
-        if(s.length()<totallen)
-            return result;
+        if (s.length() < totalLen) return result;
+
+        // Frequency map of words
+        Map<String, Integer> wordMap = new HashMap<>();
+        for (String w : words)
+            wordMap.put(w, wordMap.getOrDefault(w, 0) + 1);
+
+        // We will slide window starting from each possible offset in [0..wordLen-1]
+        for (int i = 0; i < wordLen; i++) {
+            int left = i, count = 0;
+            Map<String, Integer> seen = new HashMap<>();
+
+            // Move in steps of wordLen
+            for (int j = i; j <= s.length() - wordLen; j += wordLen) {
+                String w = s.substring(j, j + wordLen);
+
+                // If valid word
+                if (wordMap.containsKey(w)) {
+                    seen.put(w, seen.getOrDefault(w, 0) + 1);
+                    count++;
+
+                    // Shrink window if this word occurs too many times
+                    while (seen.get(w) > wordMap.get(w)) {
+                        String leftWord = s.substring(left, left + wordLen);
+                        seen.put(leftWord, seen.get(leftWord) - 1);
+                        left += wordLen;
+                        count--;
+                    }
+
+                    // If we matched all words
+                    if (count == wordCount) {
+                        result.add(left);
+                        // Move left window forward
+                        String leftWord = s.substring(left, left + wordLen);
+                        seen.put(leftWord, seen.get(leftWord) - 1);
+                        left += wordLen;
+                        count--;
+                    }
+                } else {
+                    // Reset window
+                    seen.clear();
+                    count = 0;
+                    left = j + wordLen;
+                }
+            }
+        }
+
+        return result;
+    }
+
+    // Optional: For testing
+    public static void main(String[] args) {
+        ConcatenateStrings cs = new ConcatenateStrings();
+        System.out.println(cs.findSubstring("barfoothefoobarman", new String[]{"foo", "bar"})); // [0, 9]
+        System.out.println(cs.findSubstring("wordgoodgoodgoodbestword", new String[]{"word","good","best","word"})); // []
+        System.out.println(cs.findSubstring("barfoofoobarthefoobarman", new String[]{"bar","foo","the"})); // [6,9,12]
     }
 }
