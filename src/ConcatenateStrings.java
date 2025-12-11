@@ -55,6 +55,21 @@ Constraints:
  */
 
 
-public class ConcatenateStrings {
+import java.util.ArrayList;
+import java.util.List;
 
+public class ConcatenateStrings {
+    public List<Integer> findSubString(String s, String[] words)
+    {
+        List<Integer> result = new ArrayList<>();
+        if(s==null || s.length()==0 || words==null || words.length==0)
+            return result;
+
+        int wordlen = words[0].length();
+        int wordcount = words.length;
+        int totallen = wordlen*wordcount;
+
+        if(s.length()<totallen)
+            return result;
+    }
 }
