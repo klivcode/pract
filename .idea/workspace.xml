@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="109d4315-dab6-4433-b6ec-3493c9c2162c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Insertion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +33,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BubbleSort.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.Insertion.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.RegularExpressionMatching.executor": "Run",
     "Application.SelectionSort.executor": "Run",
@@ -55,7 +57,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Factorial">
+  <component name="RunManager" selected="Application.Insertion">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BubbleSort" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Factorial" />
       <module name="leetcode" />
@@ -63,15 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegularExpressionMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RegularExpressionMatching" />
+    <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Insertion" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Insertion" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.SolutionMedainSorted" />
-        <item itemvalue="Application.RegularExpressionMatching" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +128,7 @@
       <workItem from="1764685152023" duration="546000" />
       <workItem from="1765453872724" duration="1211000" />
       <workItem from="1766244308452" duration="1017000" />
-      <workItem from="1766336230972" duration="1913000" />
+      <workItem from="1766336230972" duration="4405000" />
     </task>
     <servers />
   </component>
