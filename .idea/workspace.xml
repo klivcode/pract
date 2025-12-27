@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="109d4315-dab6-4433-b6ec-3493c9c2162c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Insertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IterationsBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IterationsBinarySearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,33 +30,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BubbleSort.executor": "Run",
-    "Application.Factorial.executor": "Run",
-    "Application.Insertion.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.RegularExpressionMatching.executor": "Run",
-    "Application.SelectionSort.executor": "Run",
-    "Application.SolutionLargestInteger.executor": "Run",
-    "Application.SolutionMedainSorted.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/klivcode/leetcode/src/Main.java",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Insertion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IterationsBinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RegularExpressionMatching.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelectionSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SolutionLargestInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SolutionMedainSorted.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/klivcode/leetcode/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Insertion">
+}</component>
+  <component name="RunManager" selected="Application.IterationsBinarySearch">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BubbleSort" />
       <module name="leetcode" />
@@ -79,6 +79,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IterationsBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IterationsBinarySearch" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SelectionSort" />
       <module name="leetcode" />
@@ -86,20 +93,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionMedainSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SolutionMedainSorted" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IterationsBinarySearch" />
         <item itemvalue="Application.Insertion" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.SolutionMedainSorted" />
       </list>
     </recent_temporary>
   </component>
@@ -128,12 +128,42 @@
       <workItem from="1764685152023" duration="546000" />
       <workItem from="1765453872724" duration="1211000" />
       <workItem from="1766244308452" duration="1017000" />
-      <workItem from="1766336230972" duration="4405000" />
+      <workItem from="1766336230972" duration="5031000" />
+      <workItem from="1766490365767" duration="2160000" />
+      <workItem from="1766663801605" duration="2611000" />
+      <workItem from="1766838783783" duration="2090000" />
+      <workItem from="1766844209435" duration="1476000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/IterationsBinarySearch.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/IterationsBinarySearch.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/IterationsBinarySearch.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/IterationsBinarySearch.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
