@@ -22,31 +22,21 @@ public class IterationsBinarySearch {
         }
     }
 
-    int Binary_Search_Iteratively(int arr[], int left, int right, int key){
-          int mid=left+(right-left)/2;
-          if(key==arr[mid])
-          {
-              return mid;
-          }
-          else if (arr[mid]>key) {
-              for(int i=left;i<=mid-1;i++)
-              {
-                  if(key==arr[i])
-                  {
-                      return i;
-                  }
-              }
-          }
-          else
-              for(int i=mid+1;i<=right;i++)
-              {
-                  if(key==arr[i])
-                  {
-                      return i;
-                  }
-              }
+    int Binary_Search_Iteratively(int arr[], int left, int right, int key) {
+
+        for ( ; left <= right ; ) {
+            int mid = left + (right - left) / 2;
+
+            if (arr[mid] == key)
+                return mid;
+            else if (arr[mid] > key)
+                right = mid - 1;
+            else
+                left = mid + 1;
+        }
         return -1;
     }
+
 
     public static void main(String[] args) {
         IterationsBinarySearch ob = new IterationsBinarySearch();

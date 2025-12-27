@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="109d4315-dab6-4433-b6ec-3493c9c2162c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/IterationsBinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IterationsBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IterationsBinarySearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +132,7 @@
       <workItem from="1766490365767" duration="2160000" />
       <workItem from="1766663801605" duration="2611000" />
       <workItem from="1766838783783" duration="2090000" />
-      <workItem from="1766844209435" duration="1043000" />
+      <workItem from="1766844209435" duration="1476000" />
     </task>
     <servers />
   </component>
@@ -146,22 +144,22 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/IterationsBinarySearch.java</url>
-          <line>67</line>
+          <line>57</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/IterationsBinarySearch.java</url>
-          <line>68</line>
+          <line>58</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/IterationsBinarySearch.java</url>
-          <line>71</line>
+          <line>61</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/IterationsBinarySearch.java</url>
-          <line>72</line>
+          <line>62</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
